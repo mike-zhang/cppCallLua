@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="include\LoadLuaConfigure.h" open="1" top="0" tabpos="2">
+		<Cursor position="1437" topLine="36" />
+	</File>
+	<File name="lua-5.1.4\lapi.c" open="0" top="0" tabpos="0">
+		<Cursor position="11697" topLine="528" />
+	</File>
+	<File name="lua-5.1.4\lauxlib.c" open="0" top="0" tabpos="2">
+		<Cursor position="1569" topLine="50" />
+	</File>
+	<File name="lua-5.1.4\lstring.c" open="0" top="0" tabpos="0">
+		<Cursor position="2287" topLine="62" />
+	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="2411" topLine="61" />
+	</File>
+	<File name="src\LoadLuaConfigure.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="2245" topLine="78" />
+	</File>
+</CodeBlocks_layout_file>
