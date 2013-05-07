@@ -938,3 +938,477 @@
 	<vector>
 	<map>
 
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\lapi.c
+	<assert.h>
+	<math.h>
+	<stdarg.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lundump.h"
+	"lvm.h"
+
+1367919286 e:\cppcalllua\codeblocksproject\lua-5.1.4\lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1367919286 e:\cppcalllua\codeblocksproject\lua-5.1.4\luaconf.h
+	<limits.h>
+	<stddef.h>
+	<unistd.h>
+	<io.h>
+	<stdio.h>
+	<stdio.h>
+	<readline/readline.h>
+	<readline/history.h>
+	<assert.h>
+	<math.h>
+	<unistd.h>
+
+1367919286 e:\cppcalllua\codeblocksproject\lua-5.1.4\lapi.h
+	"lobject.h"
+
+1367919286 e:\cppcalllua\codeblocksproject\lua-5.1.4\lobject.h
+	<stdarg.h>
+	"llimits.h"
+	"lua.h"
+
+1367919286 e:\cppcalllua\codeblocksproject\lua-5.1.4\llimits.h
+	<limits.h>
+	<stddef.h>
+	"lua.h"
+
+1367919286 e:\cppcalllua\codeblocksproject\lua-5.1.4\ldebug.h
+	"lstate.h"
+
+1367919286 e:\cppcalllua\codeblocksproject\lua-5.1.4\lstate.h
+	"lua.h"
+	"lobject.h"
+	"ltm.h"
+	"lzio.h"
+
+1367919286 e:\cppcalllua\codeblocksproject\lua-5.1.4\ltm.h
+	"lobject.h"
+
+1367919286 e:\cppcalllua\codeblocksproject\lua-5.1.4\lzio.h
+	"lua.h"
+	"lmem.h"
+
+1367919286 e:\cppcalllua\codeblocksproject\lua-5.1.4\lmem.h
+	<stddef.h>
+	"llimits.h"
+	"lua.h"
+
+1367919286 e:\cppcalllua\codeblocksproject\lua-5.1.4\ldo.h
+	"lobject.h"
+	"lstate.h"
+	"lzio.h"
+
+1367919286 e:\cppcalllua\codeblocksproject\lua-5.1.4\lfunc.h
+	"lobject.h"
+
+1367919286 e:\cppcalllua\codeblocksproject\lua-5.1.4\lgc.h
+	"lobject.h"
+
+1367919286 e:\cppcalllua\codeblocksproject\lua-5.1.4\lstring.h
+	"lgc.h"
+	"lobject.h"
+	"lstate.h"
+
+1367919286 e:\cppcalllua\codeblocksproject\lua-5.1.4\ltable.h
+	"lobject.h"
+
+1367919286 e:\cppcalllua\codeblocksproject\lua-5.1.4\lundump.h
+	"lobject.h"
+	"lzio.h"
+
+1367919286 e:\cppcalllua\codeblocksproject\lua-5.1.4\lvm.h
+	"ldo.h"
+	"lobject.h"
+	"ltm.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\lauxlib.c
+	<ctype.h>
+	<errno.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+
+1367919286 e:\cppcalllua\codeblocksproject\lua-5.1.4\lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"lua.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\lbaselib.c
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1367919286 e:\cppcalllua\codeblocksproject\lua-5.1.4\lualib.h
+	"lua.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\lcode.c
+	<stdlib.h>
+	"lua.h"
+	"lcode.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"llex.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+	"ltable.h"
+
+1367919286 e:\cppcalllua\codeblocksproject\lua-5.1.4\lcode.h
+	"llex.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+
+1367919286 e:\cppcalllua\codeblocksproject\lua-5.1.4\llex.h
+	"lobject.h"
+	"lzio.h"
+
+1367919286 e:\cppcalllua\codeblocksproject\lua-5.1.4\lopcodes.h
+	"llimits.h"
+
+1367919286 e:\cppcalllua\codeblocksproject\lua-5.1.4\lparser.h
+	"llimits.h"
+	"lobject.h"
+	"lzio.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\ldblib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\ldebug.c
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"lcode.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lvm.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\ldo.c
+	<setjmp.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lundump.h"
+	"lvm.h"
+	"lzio.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\ldump.c
+	<stddef.h>
+	"lua.h"
+	"lobject.h"
+	"lstate.h"
+	"lundump.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\lfunc.c
+	<stddef.h>
+	"lua.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\lgc.c
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\linit.c
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\liolib.c
+	<errno.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\llex.c
+	<ctype.h>
+	<locale.h>
+	<string.h>
+	"lua.h"
+	"ldo.h"
+	"llex.h"
+	"lobject.h"
+	"lparser.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"lzio.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\lmathlib.c
+	<stdlib.h>
+	<math.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\lmem.c
+	<stddef.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\loadlib.c
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<dlfcn.h>
+	<windows.h>
+	<mach-o/dyld.h>
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\lobject.c
+	<ctype.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"ldo.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"lvm.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\lopcodes.c
+	"lopcodes.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\loslib.c
+	<errno.h>
+	<locale.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\lparser.c
+	<string.h>
+	"lua.h"
+	"lcode.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"llex.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\lstate.c
+	<stddef.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"llex.h"
+	"lmem.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\lstring.c
+	<string.h>
+	"lua.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\lstrlib.c
+	<ctype.h>
+	<stddef.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\ltable.c
+	<math.h>
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"ltable.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\ltablib.c
+	<stddef.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\ltm.c
+	<string.h>
+	"lua.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\lua.c
+	<signal.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\luac.c
+	<errno.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"ldo.h"
+	"lfunc.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lstring.h"
+	"lundump.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\lundump.c
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstring.h"
+	"lundump.h"
+	"lzio.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\lvm.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lvm.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\lzio.c
+	<string.h>
+	"lua.h"
+	"llimits.h"
+	"lmem.h"
+	"lstate.h"
+	"lzio.h"
+
+1367919286 source:e:\cppcalllua\codeblocksproject\lua-5.1.4\print.c
+	<ctype.h>
+	<stdio.h>
+	"ldebug.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lundump.h"
+
+1367919286 source:e:\cppcalllua\libloadluaconfigure\main.cpp
+	<iostream>
+	<iomanip>
+	"LoadLuaConfigure.h"
+
+1367919198 e:\cppcalllua\libloadluaconfigure\loadluaconfigure.h
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+	<string>
+	<vector>
+	<map>
+

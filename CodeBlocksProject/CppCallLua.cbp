@@ -14,8 +14,7 @@
 				<Compiler>
 					<Add option="-g" />
 					<Add directory="lua-5.1.4" />
-					<Add directory="include" />
-					<Add directory="src" />
+					<Add directory="..\libLoadLuaConfigure" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -38,7 +37,6 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include\LoadLuaConfigure.h" />
 		<Unit filename="lua-5.1.4\lapi.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -158,8 +156,8 @@
 		<Unit filename="lua-5.1.4\print.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="main.cpp" />
-		<Unit filename="src\LoadLuaConfigure.cpp" />
+		<Unit filename="..\libLoadLuaConfigure\LoadLuaConfigure.cpp" />
+		<Unit filename="..\libLoadLuaConfigure\main.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
