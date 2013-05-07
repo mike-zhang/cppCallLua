@@ -10,10 +10,10 @@
 	<File name="lua-5.1.4\lstring.c" open="0" top="0" tabpos="0">
 		<Cursor position="2287" topLine="62" />
 	</File>
-	<File name="..\libLoadLuaConfigure\LoadLuaConfigure.cpp" open="1" top="1" tabpos="2">
-		<Cursor position="8587" topLine="355" />
+	<File name="..\libLoadLuaConfigure\LoadLuaConfigure.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="12225" topLine="499" />
 	</File>
-	<File name="..\libLoadLuaConfigure\main.cpp" open="1" top="0" tabpos="1">
-		<Cursor position="1555" topLine="36" />
+	<File name="..\libLoadLuaConfigure\main.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="8844" topLine="294" />
 	</File>
 </CodeBlocks_layout_file>

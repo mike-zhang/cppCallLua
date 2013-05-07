@@ -24,7 +24,8 @@ void initScript()
     luaScriptStr += "		{0,{0}},\n";
     luaScriptStr += "		{1,{1,2}},\n";
     luaScriptStr += "		{2,{1}}\n";
-    luaScriptStr += "	}\n";
+    luaScriptStr += "	},\n";
+    luaScriptStr += "	keyTable = { subkey_string = \"value string \", subkey_int = 1} \n";
     luaScriptStr += "}\n";
     luaScriptStr += "function retIntValue()\n";
     luaScriptStr += "	return 1234\n";
@@ -219,6 +220,37 @@ void getMapTableFieldTest()
     cout << "getMapTableFieldTest end\n"<<endl;
 }
 
+void getSubTableStrFieldTest()
+{
+    cout << "getSubTableStrFieldTest begin"<<endl;
+    string strTmp = "null";
+    cout<<"Before get : "<<strTmp<<endl;
+
+    if(g_LoadLuaConfigure.getSubTableStrField("section1","keyTable","subkey_string",strTmp))
+    {
+        cout<<"After get  : "<<strTmp<<endl;
+    }
+    else
+        cout<<"Get fail!"<<endl;
+    cout << "getSubTableStrFieldTest end\n"<<endl;
+}
+
+void getSubTableIntFieldTest()
+{
+    cout << "getSubTableIntFieldTest begin"<<endl;
+    int itmp = 0;
+    cout<<"Before get : "<< itmp<<endl;
+
+    if(g_LoadLuaConfigure.getSubTableIntField("section1","keyTable","subkey_int", &itmp))
+    {
+        cout<<"After get  : "<< itmp<<endl;
+    }
+    else
+        cout<<"Get fail!"<<endl;
+    cout << "getSubTableIntFieldTest end\n"<<endl;
+}
+
+
 void retIntValueTest()
 {
     cout << "retIntValueTest begin"<<endl;
@@ -274,6 +306,8 @@ int main()
     getStrFieldTest();
     getIntTableFieldTest();
     getMapTableFieldTest();
+    getSubTableStrFieldTest();
+    getSubTableIntFieldTest();
     retIntValueTest();
     retFloatValueTest();
     retIntValue1Test();
