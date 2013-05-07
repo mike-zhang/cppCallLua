@@ -50,6 +50,9 @@ public:
         const char *section,
         const char *key,
         map<int,vector<int> > &mapRet);
+    bool getSubTableStrField(const char *section,const char *key,const char *subkey,string &retStr);
+    bool getSubTableIntField(const char *section,const char *key,const char *subkey,int *retInt);
+
     short luaFunWithShortRet(const char* funName);
     int luaFunWithIntRet(const char* funName);
     float luaFunWithFloatRet(const char* funName);

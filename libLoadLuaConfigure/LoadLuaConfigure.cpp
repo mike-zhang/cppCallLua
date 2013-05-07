@@ -1,3 +1,6 @@
+/*
+
+*/
 #include "LoadLuaConfigure.h"
 #include <string.h>
 
@@ -495,6 +498,98 @@ bool CLoadLuaConfigure::getMapTableField(
         mapRet.insert(pair<int,vector<int> >(result,vInt));
         lua_settop(L,nowTop2);// 恢复之前的栈顶位置
     }
+    lua_settop(L,nowTop);// 恢复之前的栈顶位置
+    return true;
+}
+
+/// 读取subTable中的string类型数据
+/// 返回值
+///		true : 成功
+///		false: 配置中不存在、配置出错
+/*
+例如：
+section1 = {
+    key1 = {
+    	subkey_string = "value string",
+    }
+}
+*/
+bool CLoadLuaConfigure::getSubTableStrField(const char *section,const char *key,const char *subkey,string &retStr)
+{
+    long nowTop = lua_gettop(L); //在最开始，保存栈顶位置
+    lua_getglobal(L,section);
+    if(!lua_istable(L,-1))
+    {
+        lua_settop(L,nowTop);// 恢复之前的栈顶位置
+        return false;
+    }
+
+    lua_pushstring(L, key);
+    lua_gettable(L, -2);
+
+    if(!lua_istable(L,-1))
+    {
+        lua_settop(L,nowTop);// 恢复之前的栈顶位置
+        return false;
+    }
+
+    lua_pushstring(L,subkey);
+    lua_gettable(L,-2);
+    
+    if(lua_isstring(L,-1))
+    	retStr = lua_tostring(L,-1);
+    else
+    {
+    	lua_settop(L,nowTop);// 恢复之前的栈顶位置
+	return false;
+    }
+
+    lua_settop(L,nowTop);// 恢复之前的栈顶位置
+    return true;
+}
+
+/// 读取subTable中的int型数据
+/// 返回值
+///		true : 成功
+///		false: 配置中不存在、配置出错
+/*
+例如：
+section1 = {
+    key1 = {
+    	subkey_int = 1,
+    }
+}
+*/
+bool CLoadLuaConfigure::getSubTableIntField(const char *section,const char *key,const char *subkey,int *retInt)
+{
+    long nowTop = lua_gettop(L); //在最开始，保存栈顶位置
+    lua_getglobal(L,section);
+    if(!lua_istable(L,-1))
+    {
+        lua_settop(L,nowTop);// 恢复之前的栈顶位置
+        return false;
+    }
+
+    lua_pushstring(L, key);
+    lua_gettable(L, -2);
+
+    if(!lua_istable(L,-1))
+    {
+        lua_settop(L,nowTop);// 恢复之前的栈顶位置
+        return false;
+    }
+
+    lua_pushstring(L,subkey);
+    lua_gettable(L,-2);
+    
+    if (lua_isnumber(L, -1))
+        *retInt = (int)lua_tonumber(L, -1);
+    else
+    {
+    	lua_settop(L,nowTop);// 恢复之前的栈顶位置
+	return false;
+    }
+
     lua_settop(L,nowTop);// 恢复之前的栈顶位置
     return true;
 }
